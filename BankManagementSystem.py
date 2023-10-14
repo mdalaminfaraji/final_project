@@ -74,6 +74,8 @@ class User:
             print(f'"Insufficient amount {amount}"')
 
 
+
+
 islamic_balnk=Bank()
 
 class Admin:
@@ -122,9 +124,9 @@ class Admin:
 
 
 
+print('-------------General output ---------')
 
 admin1=Admin('rana', 1234)
-print('-------------General output ---------')
 
 user1=admin1.create_user_account('tanjid', 'tanjid@gmail.com', 'kushtia', 'saving')
 user2=admin1.create_user_account('tan', 'tan@gmail.com', 'kushtia_dhaka', 'current')
